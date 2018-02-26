@@ -1,0 +1,38 @@
+// everything you do to parents will be done to the sons, stylewise
+body {
+    background-color: red;   //the background
+    color: yellow;     //the letters
+    font-family: cursive;  
+}
+
+nav {
+border: 10px dashed green;   //makes border lines around navegation section
+}
+
+ul{
+    background-color: blue;  //made links blue
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;   //flex give side  by side stack
+    // flex-direction: row-reverse;  move them to the opposite side
+    // flex-direction: column-reverse; move them from top to bottom
+}
+
+article {
+    width: 75%;       // tells how far you want the background color to go, because the main is set up horizontal 75 from left to right will be cover
+    background-color: green;
+    //float: left;
+
+}
+
+aside {
+    width: 25%;      // aside is bunch of options, same consept apply from article ; color is blue as default because it is all links
+    //float: right;
+}
+
+section {
+    width: 100%;    //sectio can be when imput data might be required, consepts apply same as avobe
+    background-color: magenta;
+}

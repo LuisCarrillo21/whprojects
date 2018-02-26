@@ -1,0 +1,31 @@
+body {
+    margin: 0
+    }
+
+header {background-image: url('.. /images/banner.jpg');
+        background-size: cover; 
+        color: rgb(200, 230, 230);   //if a color is applied to the header then it is applid to all the letters
+        text-align: center;
+        font-family: sans-serif;
+        height: 50vw;                   //view port with it is a powerful measurement tool
+        display: flex;
+        flex-direction: column;
+        }
+ 
+nav{
+    background-color: black;
+    }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    }
+
+    h1 {text-transform: uppercase;
+    margin-top: auto;}
+    
+    h2 {font-size: 95%
+    margin-bottom: auto;}
