@@ -1,0 +1,21 @@
+    
+section {
+        background-color: purple;
+        padding: 18px;
+        margin: 50px;
+
+        display: flex; 
+        flex-direction: column-reverse;
+        justify-content: center;  
+        align-items: center;
+        }       
+
+div{
+    //flex:1;  will set items in a radio, will take as much space as available
+    width: 65px;
+    height: 65px;
+    font-size: 48px;
+    color: white;
+    background-color: pink;
+    margin: 5px;
+    }
