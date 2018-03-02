@@ -1,0 +1,24 @@
+html {background-color: pink;}
+
+#apple{color: red;}         //id cant be used always, even if it works, many as you want as long as they are different 
+
+#orange {color:orange;}  //it is possible to have an id and a name witht the same name but not recommended
+
+p{color: slateblue;}
+
+p .banana{                // p .banana(targeeting a part of the sentence aka content) is different than p.banana
+    color: yellow;
+}
+
+.spoiled{color: brown;}         //p.spoiled  will give you higher hirarchy than .banana
+
+div{color:palevioletred;}
+
+div span{color:orange;}    // div span will be more important than span alone, more specific
+
+span{ color: purple;}
+
+section#portfolio ul li.port { color: black;}
+
+#portfolio li { color: green;}
+
