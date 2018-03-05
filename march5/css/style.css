@@ -1,0 +1,41 @@
+main {
+  background-color: pink;
+  height: 50vh;
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.img2 {
+  left: 20px;
+  bottom: 20px;
+  position: absolute;
+  z-index: 9999;
+}
+
+.img3 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.img4 {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(32, 178, 170, 0.5);
+  z-index: 2;
+}
+/*# sourceMappingURL=style.css.map */

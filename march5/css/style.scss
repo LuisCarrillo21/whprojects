@@ -1,0 +1,45 @@
+main {background-color: pink;
+    height: 50vh;   //vh matters and is different than %
+    position: relative;
+    }  
+
+
+    .img1{ //in this format becasue it goes clock wise
+        position: absolute;
+       // top;
+        right: 0px;
+        bottom: 0px;
+        //left;
+    }
+    .img2{  //notice that pushing the image will be from the corners to the center
+        left: 20px;
+        bottom: 20px;
+        position: absolute;
+        z-index: 9999;   
+        //ths will allow that pictures go abve the div, (by deafult 0) that why top margin wil always be visible
+        //margin-left: -47 before this style was use to make things center
+    }
+    .img3{ 
+        top: 0px;
+        left: 0px;
+        position: absolute;}
+    .img4{ 
+        top: 0px;
+        right: 0px;
+        position: absolute;}
+    div{ 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: transparentize(lightseagreen, .5);
+        z-index: 2;}
+        
+        
+        //get pic in the middle
+        // top: 50px;
+        // left: 50px;
+        // transform:translatex(-50%) translatey(-50%) skewx(45deg) scale(1.5);
+        // text-align: center;
+      //center is in flexbox this is other properties. padding/margins/subtraction of width to fake the middle
