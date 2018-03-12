@@ -1,0 +1,44 @@
+html {background-color:gray;}
+
+nav ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+nav#horizontal {
+    background-color: transparent;
+    padding: 8px;
+    color:Blue;
+}
+nav#horizontal ul{
+    display: flex;
+    justify-content: space-around; 
+
+}
+
+
+div#mainpage {
+    background-image: url('../images/sky.jpeg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 100vh 0 100vh 0;
+    background-repeat: none;
+
+
+    ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    display: flex;
+    
+    }
+
+  }
+
+
+
+
+// nav#mainpage {
+//     background-image: url('../img/nikita-kachanovsky-445394-unsplash.jpg');
+//
