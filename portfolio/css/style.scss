@@ -1,4 +1,5 @@
-html {background-color:gray;}
+html {background-color:gray;
+    margin: -10px;}
 
 nav ul{
     padding:0;
@@ -18,12 +19,12 @@ nav#horizontal ul{
 
 
 div#mainpage {
-    background-image: url('../images/sky.jpeg');
+    background-image:url('../images/skys.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
-    padding: 100vh 0 100vh 0;
-    background-repeat: none;
+    padding: 295px 295px 298px 295px;
+    background-repeat: no-repeat;
 
 
     ul {
@@ -36,9 +37,123 @@ div#mainpage {
 
   }
 
+  div#description {
+      background-color:lightgreen;
+      height: 100%;
+      width: 100%;
+     list-style: none;
+  }
+  div#description ul{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    list-style:none;
+    padding: 0px, 0px, 0px, 20px;
+  }
+/////////////////////////////////////////////////////
+ul#aboutme {
+    background: yellow;
+    padding: 50px;
+    margin:0px;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+li#myimage {
+    height:70%;
+    width:30%;
+    padding: 3px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    align-items: center;
+}
+li#mydescription {
+    height: 70%;
+    width: 70%;
+    padding: 4%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
 
 
 
-// nav#mainpage {
-//     background-image: url('../img/nikita-kachanovsky-445394-unsplash.jpg');
-//
+
+
+////////////////////////////////////////
+
+
+  div#myskills {
+      background-color:lightseagreen;
+      margin:0;
+      height: 650px;
+      width: 100%;
+  }
+  div#myskills ul {
+    padding:10px, 10px, 10px, 10px;
+    list-style:none;
+    display: flex;
+    justify-content: space-around; 
+
+  }
+//   .programs {
+//       padding: 2px;
+//       border-style: dashed;
+//       border-width: 2px;
+//       border-color: red;
+// }
+//   ul.borders {
+//     padding: 60px;
+//     border-style: dashed;
+//     border-width: 2px;
+//     border-color: blue;
+
+ul.section-html {
+    background-color: green;
+    padding: 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    justify-content: space-around;
+}
+ul.section-css {
+    background-color: yellow;
+    padding: 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    justify-content: space-around;
+}
+ul.section-javascript {
+    background-color: blue;
+    padding: 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    justify-content: space-around;
+}
+ul.section-cpp {
+    background-color: red;
+    padding: 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    justify-content: space-around;
+}
+  li.circle {
+      padding:5px;
+      border-style: double;
+      border-width: 2px;
+      border-color: brown;
+
+  }
+
+
+////////////////////////////////////////////////
+
+
+
+  footer{background: lightcoral;}
