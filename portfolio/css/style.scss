@@ -52,25 +52,33 @@ div#mainpage {
     padding: 0px, 0px, 0px, 20px;
   }
 /////////////////////////////////////////////////////
-ul#aboutme {
+div#aboutme {
     background: yellow;
-    padding: 50px;
+    height:100%;
+    width:100%;
+    // padding: 50px;
     margin:0px;
     display:flex;
-    justify-content: space-around;
-    list-style: none;
-    align-items: center;
+    // justify-content: space-around;
+    // list-style: none;
+    // align-items: center;
 }
-li#myimage {
-    height:70%;
+div#myimage {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: flex-start;
+    height:150px;
     width:30%;
-    padding: 3px;
+    padding: 100px;
     border-style: solid;
     border-width: 5px;
     border-color: black;
-    align-items: center;
+    border-radius: 75%;
+    // align-items: center;
 }
-li#mydescription {
+div#mydescription {
+    display:flex;
+    flex-wrap: wrap;
     height: 70%;
     width: 70%;
     padding: 4%;
@@ -145,6 +153,7 @@ ul.section-cpp {
 }
   li.circle {
       padding:5px;
+      border-radius: 150px;
       border-style: double;
       border-width: 2px;
       border-color: brown;
@@ -156,4 +165,33 @@ ul.section-cpp {
 
 
 
-  footer{background: lightcoral;}
+footer{background-color: lightcoral;
+        display: flex;
+        height: 200px;
+        width: 100%;   
+}
+ul#section-contact {
+    height:200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+}
+
+div.popups{
+    max-width: 200px;
+    max-height: 300px;
+    padding-left: 10px;
+}
+ul.popup-box, form.popup-box {
+    background-color: lightseagreen;
+    display: block;
+    list-style: none;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 1px 0 lightblue;
+    border-radius: 5px 5px 5px 5px;
+
+
+}
