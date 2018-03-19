@@ -7,6 +7,7 @@ nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  border: 5px solid black;
 }
 
 nav#horizontal {
@@ -27,29 +28,14 @@ div#mainpage {
   background-size: cover;
   padding: 295px 295px 298px 295px;
   background-repeat: no-repeat;
+  border: 10px double black;
 }
 
-div#mainpage ul {
-  padding: 0;
-  margin: 0;
+ul#description {
+  border: 5px double black;
   list-style: none;
   display: flex;
-}
-
-div#description {
-  background-color: lightgreen;
-  height: 100%;
-  width: 100%;
-  list-style: none;
-}
-
-div#description ul {
-  display: flex;
-  justify-content: space-around;
-  height: 100%;
-  width: 100%;
-  list-style: none;
-  padding: 0px, 0px, 0px, 20px;
+  justify-content: center;
 }
 
 div#aboutme {
