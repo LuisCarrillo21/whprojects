@@ -1,0 +1,184 @@
+html {background-color:gray;
+    margin:0px;}
+
+nav ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    border: 5px solid black;
+}
+nav#horizontal {
+    background-color: transparent;
+    padding: 8px;
+    color:Blue;
+}
+nav#horizontal ul{
+    display: flex;
+    justify-content: space-around; 
+
+}
+
+
+div#mainpage {
+    background-image:url('../images/skys.jpg');
+    background-size: cover;
+    margin:-10px;
+    height: fit;
+    width: fit;
+    padding: 295px 295px 298px 295px;
+}
+
+
+    ul#description {
+    border: 5px double black;
+
+    // padding:0;
+    // margin:0;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    }
+
+
+//   div#description ul{
+//     border: 5px solid black;
+//     display: flex;
+//     justify-content: space-around;
+//     list-style:none;
+//     padding: 0px, 0px, 0px, 20px;
+/////////////////////////////////////////////////////
+div#aboutme {
+    background: lightseagreen;
+    height:100%;
+    width:100%;
+    // padding: 50px;
+    margin:0px;
+    display:flex;
+    // justify-content: space-around;
+    // list-style: none;
+    // align-items: center;
+}
+div#myimage {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: flex-start;
+    height:150px;
+    width:30%;
+    padding: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 75%;
+    // align-items: center;
+}
+div#mydescription {
+    display:flex;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 70%;
+    padding: 4%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+
+
+
+
+////////////////////////////////////////
+
+
+  div#myskills {
+      background-color:lightseagreen;
+      margin:0;
+      height: 650px;
+      width: 100%;
+  }
+  div#myskills ul {
+    padding:10px, 10px, 10px, 10px;
+    list-style:none;
+    display: flex;
+    justify-content: space-around; 
+
+  }
+//   .programs {
+//       padding: 2px;
+//       border-style: dashed;
+//       border-width: 2px;
+//       border-color: red;
+// }
+//   ul.borders {
+//     padding: 60px;
+//     border-style: dashed;
+//     border-width: 2px;
+//     border-color: blue;
+
+ul.section-html {
+    background-color:rgb(167, 0, 167);
+    padding: 4%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+ul.section-css {
+    background-color: rgb(32, 6, 177);
+    padding: 4%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+ul.section-javascript {
+    background-color:rgb(3, 149, 168);
+    padding: 4%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+ul.section-cpp {
+    background-color:rgb(4, 170, 4);
+    padding: 4%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+  li.circle {
+      padding:5px;
+      border-radius: 150px;
+      border-style: double;
+      border-width: 2px;
+      border-color: brown;
+
+  }
+
+
+////////////////////////////////////////////////
+
+
+
+footer{background-color: lightcoral;
+        display: flex;
+        height: 100px;
+        width: 100%;   
+}
+ul#section-contact {
+    height:200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+}
+
+div.popups{
+    max-width: 200px;
+    max-height: 300px;
+    padding-left: 10px;
+}
+ul.popup-box, form.popup-box {
+    background-color: lightseagreen;
+    display: block;
+    list-style: none;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 1px 0 lightblue;
+    border-radius: 5px 5px 5px 5px;
+
+
+}
