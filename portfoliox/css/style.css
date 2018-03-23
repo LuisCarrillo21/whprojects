@@ -39,9 +39,10 @@ ul#description {
 
 div#aboutme {
   background: lightseagreen;
-  height: 100%;
-  width: 100%;
-  margin: 0px;
+  background-size: cover;
+  margin: -10px;
+  height: fit;
+  width: fit;
   display: flex;
 }
 
@@ -69,10 +70,11 @@ div#mydescription {
 }
 
 div#myskills {
-  background-color: lightseagreen;
-  margin: 0;
-  height: 650px;
-  width: 100%;
+  background-color: yellow;
+  background-size: cover;
+  margin: -10px;
+  height: fit;
+  width: fit;
 }
 
 div#myskills ul {
@@ -105,9 +107,30 @@ ul.section-javascript {
 
 ul.section-cpp {
   background-color: #04aa04;
+  background-size: cover;
   padding: 4%;
-  border: 1px solid black;
+  border: 1px solid #c21616;
   justify-content: space-around;
+  position: relative;
+}
+
+ul.section-cpp div.triangle1, ul.section-cpp div.triangle2 {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  padding: 40px 35px 15px 10px;
+  border: 3px double black;
+  color: black;
+  font-size: 25px;
+  background-color: red;
+  z-index: 2;
+}
+
+ul.section-cpp div.triangle2 {
+  z-index: 1;
+  opacity: 1;
+  padding: 55px 45px 50px 45px;
+  transform: rotate(55deg);
 }
 
 li.circle {
@@ -120,33 +143,56 @@ li.circle {
 
 footer {
   background-color: lightcoral;
-  display: flex;
+  background-size: cover;
+  margin: -10px;
   height: 100px;
-  width: 100%;
 }
 
-ul#section-contact {
-  height: 200px;
-  width: 100%;
+div#contacts {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  height: 100px;
+  width: 100%;
+  border: 1px double black;
 }
 
-div.popups {
-  max-width: 200px;
-  max-height: 300px;
-  padding-left: 10px;
+div.container {
+  border: 1px double black;
+  width: 200px;
+  height: 100px;
+  z-index: 4;
+  position: relative;
 }
 
-ul.popup-box, form.popup-box {
-  background-color: lightseagreen;
-  display: block;
-  list-style: none;
-  padding-bottom: 7px;
-  padding-left: 10px;
-  box-shadow: 10px 10px 1px 0 lightblue;
-  border-radius: 5px 5px 5px 5px;
+div.container :first-child {
+  padding: 25px;
+}
+
+div.overlay {
+  width: 200px;
+  height: 100px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  z-index: 5;
+  position: relative;
+}
+
+div.container:hover div.overlay {
+  opacity: 1;
+}
+
+div.text {
+  border: 1px double black;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
