@@ -1,0 +1,17 @@
+// p.p {    //because of high level they will be first in specificity
+//     font-weight: bold;
+// }
+// p#p1 {
+//     color: magenta;
+// }
+// p#p2 {
+//     color: darkcyan;
+// }
+
+// p {
+//     color: green;
+// }
+
+// p.p:nth-child(4) {
+//     color: yellow !important;//can be apply anything at any level and will win
+// }

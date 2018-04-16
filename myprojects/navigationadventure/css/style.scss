@@ -1,0 +1,32 @@
+html {background-color:lightblue;}
+
+div {border: 1px double black;
+     display: flex;
+     justify-content: center;
+     animation: cape 3.0s linear 2.0s;
+    }
+    @-moz-keyframes cape { 
+        100% {
+          opacity:1;
+        }
+        0% {
+          opacity:0;
+        }
+      }
+
+    @-moz-keyframes h1Fadein { 
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      h1 {
+        animation: h1Fadein 3.0s linear 2.0s;
+      }
+
+    // h1 {
+    //     transition: opacity(1) 2s ease-in-out;
+    //     -moz-transform: opacity 2s ease-in-out;
+    //  }
